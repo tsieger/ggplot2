@@ -34,7 +34,8 @@
 #'    the body (default 0.5)
 #' @param varwidth if \code{FALSE} (default) make a standard box plot. If
 #'    \code{TRUE}, boxes are drawn with widths proportional to the
-#'    square-roots of the number of observations in the groups.
+#'    square-roots of the number of observations in the groups (possibly
+#'    weighted).
 #' @export
 #'
 #' @references McGill, R., Tukey, J. W. and Larsen, W. A. (1978) Variations of

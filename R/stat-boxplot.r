@@ -83,8 +83,7 @@ StatBoxplot <- proto(Stat, {
       transform(df,
         x = if (is.factor(x)) x[1] else mean(range(x)),
         width = width,
-        relvarwidth = relvarwidth,
-        n = length(x)
+        relvarwidth = sqrt(n)
       )
     })
   }
